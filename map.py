@@ -1,12 +1,19 @@
 import streamlit as st
 import pandas as pd
 import folium 
+import matplotlib.pyplot as plt
 from streamlit_folium import st_folium
 import branca.colormap as cmp
 
 
 APP_TITLE  = 'Farmland of the United States'
 APP_SUBTITLE = 'Source: National Agricultural Statistics Service'
+def plot_bar_chart(df, x_axis, y_axis):
+    fig, ax = plt.subplots()
+    ax.bar(df[x_axis], df[y_axis])
+    ax.set_xlabel(x_axis)
+    ax.set_ylabel(y_axis)
+    st.pyplot(fig)
 
 def display_map(df):
        
@@ -47,6 +54,21 @@ def display_map(df):
     )
 
     st_map = st_folium(map, width = 700, height = 450)
+    if(st_map['last_active_drawing']):
+        last_clicked = str(st_map['last_active_drawing']['properties']['name'])
+        index = list(df['state']).index(last_clicked)
+        vals = list(df.iloc[index])
+        temp_dict = {'state':vals[0], 'type':['Barley', 'Corn', 'Oats', 'Soybeans'], 'val':[vals[2], vals[3], vals[4], vals[5]]}
+        temp_df = pd.DataFrame(temp_dict)
+        
+        st.sidebar.title('Sidebar')
+        x_axis = st.sidebar.selectbox('Select x-axis column', options=temp_df.columns)
+        y_axis = st.sidebar.selectbox('Select y-axis column', options=temp_df.columns)
+        st.sidebar.write(temp_df.columns)
+    
+        # Plot the bar chart using the selected columns
+        plot_bar_chart(temp_df, x_axis, y_axis)
+        
 
 
 def main():
