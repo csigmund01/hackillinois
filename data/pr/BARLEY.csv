@@ -1,0 +1,1929 @@
+state,year,month,price_received
+California,2021,10,5.12
+California,2017,2,4.67
+California,2017,6,4.39
+California,2017,8,4.23
+California,2016,5,4.89
+California,2016,6,4.17
+California,2016,7,4.11
+California,2014,6,5.52
+California,2014,8,6.86
+California,2012,6,5.73
+California,2011,5,5.98
+California,2011,6,5.56
+California,2011,7,5.88
+California,2010,7,3.32
+California,2007,6,3.73
+California,2006,1,2.82
+California,2006,5,2.88
+California,2006,6,2.39
+California,2006,7,2.84
+California,2006,8,2.64
+California,2005,8,2.28
+California,2004,6,2.75
+California,2004,7,2.84
+California,2003,6,2.8
+California,2003,7,2.7
+California,2003,8,2.65
+California,2003,10,3.03
+California,2001,1,2.45
+California,2001,2,2.28
+California,2001,3,2.4
+California,2001,6,2.39
+California,2001,7,2.25
+California,2001,8,2.18
+California,2001,9,2.19
+California,2001,10,2.42
+California,2001,12,2.28
+California,2000,1,2.25
+California,2000,2,2.45
+California,2000,3,2.48
+California,2000,4,2.38
+California,2000,5,2.42
+California,2000,6,2.46
+California,2000,7,2.43
+California,2000,8,2.31
+California,2000,10,1.35
+California,2000,11,2.46
+California,2000,12,2.34
+Colorado,2022,1,5.15
+Colorado,2022,2,4.95
+Colorado,2022,3,4.96
+Colorado,2022,4,4.94
+Colorado,2022,5,5.38
+Colorado,2022,6,5.1
+Colorado,2022,7,5.3
+Colorado,2022,8,6.46
+Colorado,2022,9,6.9
+Colorado,2022,10,6.29
+Colorado,2022,11,7.16
+Colorado,2022,12,6.63
+Colorado,2021,1,4.89
+Colorado,2021,2,4.95
+Colorado,2021,3,4.92
+Colorado,2021,4,5.07
+Colorado,2021,5,4.91
+Colorado,2021,6,5.05
+Colorado,2021,7,4.86
+Colorado,2021,8,4.92
+Colorado,2021,9,4.72
+Colorado,2021,10,4.92
+Colorado,2021,11,4.91
+Colorado,2021,12,5.02
+Colorado,2020,2,5.06
+Colorado,2020,3,4.94
+Colorado,2020,4,5.28
+Colorado,2020,6,5.21
+Colorado,2020,7,5.29
+Colorado,2020,8,4.81
+Colorado,2020,9,4.85
+Colorado,2020,10,5.03
+Colorado,2020,11,5.11
+Colorado,2020,12,4.75
+Colorado,2019,1,4.66
+Colorado,2019,2,4.6
+Colorado,2019,3,4.68
+Colorado,2019,4,4.66
+Colorado,2019,6,4.68
+Colorado,2019,8,4.65
+Colorado,2019,9,4.65
+Colorado,2019,10,4.65
+Colorado,2018,2,4.8
+Colorado,2018,4,4.49
+Colorado,2018,5,4.45
+Colorado,2018,7,4.08
+Colorado,2018,8,4.25
+Colorado,2018,11,4.65
+Colorado,2018,12,4.67
+Colorado,2017,2,5.29
+Colorado,2017,3,5.45
+Colorado,2017,4,5.38
+Colorado,2017,6,5.38
+Colorado,2017,7,4.28
+Colorado,2017,8,4.46
+Colorado,2017,9,4.53
+Colorado,2017,10,4.81
+Colorado,2017,11,4.69
+Colorado,2016,1,6.24
+Colorado,2016,2,6.24
+Colorado,2016,3,6.24
+Colorado,2016,5,6.24
+Colorado,2016,7,5.45
+Colorado,2016,8,4.67
+Colorado,2016,9,5.26
+Colorado,2016,10,5.56
+Colorado,2016,12,5.63
+Colorado,2015,4,7.89
+Colorado,2015,6,6.3
+Colorado,2015,8,5.98
+Colorado,2015,9,6.13
+Colorado,2015,11,6.23
+Colorado,2014,2,4.02
+Colorado,2014,8,4.73
+Colorado,2014,9,6.28
+Colorado,2013,7,6.52
+Colorado,2013,9,6.26
+Colorado,2012,1,5.22
+Colorado,2012,2,5.27
+Colorado,2012,3,5.28
+Colorado,2012,6,6.48
+Colorado,2012,7,6.53
+Colorado,2012,8,6.71
+Colorado,2012,9,6.65
+Colorado,2012,10,6.74
+Colorado,2012,11,6.61
+Colorado,2012,12,6.83
+Colorado,2011,2,4.08
+Colorado,2011,3,2.93
+Colorado,2011,8,5.25
+Colorado,2011,11,5.3
+Colorado,2011,12,4.78
+Colorado,2010,7,4.22
+Colorado,2010,8,2.78
+Colorado,2010,9,3.86
+Colorado,2010,10,4.12
+Colorado,2010,11,4.13
+Colorado,2009,8,5.32
+Colorado,2009,9,4.51
+Colorado,2009,10,5.38
+Colorado,2009,11,5.22
+Colorado,2009,12,5.15
+Colorado,2008,7,5.49
+Colorado,2008,9,5.43
+Colorado,2008,10,5
+Colorado,2008,11,5.21
+Colorado,2007,7,3.75
+Colorado,2007,8,3.39
+Colorado,2007,9,3.37
+Colorado,2007,10,3.44
+Colorado,2007,11,3.45
+Colorado,2007,12,3.43
+Colorado,2006,10,2.47
+Colorado,2006,11,3.35
+Colorado,2005,1,2.81
+Colorado,2005,2,2.34
+Colorado,2005,3,2.51
+Colorado,2005,8,2.74
+Colorado,2005,9,3.12
+Colorado,2005,10,3.13
+Colorado,2005,11,2.15
+Colorado,2004,1,3.03
+Colorado,2004,2,2.96
+Colorado,2004,7,2.19
+Colorado,2004,8,2.56
+Colorado,2004,9,3.11
+Colorado,2004,10,2.69
+Colorado,2004,11,2.99
+Colorado,2004,12,2.84
+Colorado,2003,1,2.99
+Colorado,2003,2,2.81
+Colorado,2003,3,2.16
+Colorado,2003,4,2.73
+Colorado,2003,5,2.62
+Colorado,2003,6,2.21
+Colorado,2003,7,2.22
+Colorado,2003,8,3.08
+Colorado,2003,9,3.09
+Colorado,2003,10,2.98
+Colorado,2003,11,3.07
+Colorado,2003,12,2.87
+Colorado,2002,1,2.12
+Colorado,2002,2,2.16
+Colorado,2002,3,1.97
+Colorado,2002,5,1.96
+Colorado,2002,7,2.67
+Colorado,2002,8,3
+Colorado,2002,9,3
+Colorado,2002,10,3.2
+Colorado,2002,11,3.14
+Colorado,2002,12,3.06
+Colorado,2001,1,1.58
+Colorado,2001,2,1.84
+Colorado,2001,3,1.97
+Colorado,2001,4,2.07
+Colorado,2001,5,1.8
+Colorado,2001,6,1.92
+Colorado,2001,7,1.78
+Colorado,2001,8,2.99
+Colorado,2001,9,2.69
+Colorado,2001,10,2.47
+Colorado,2001,11,2.39
+Colorado,2001,12,2.05
+Colorado,2000,1,1.98
+Colorado,2000,2,1.79
+Colorado,2000,3,1.58
+Colorado,2000,4,1.88
+Colorado,2000,5,1.85
+Colorado,2000,6,1.84
+Colorado,2000,7,3.31
+Colorado,2000,8,3.17
+Colorado,2000,9,2.54
+Colorado,2000,10,3.05
+Colorado,2000,11,2.02
+Colorado,2000,12,1.84
+Idaho,2022,1,5.48
+Idaho,2022,2,5.38
+Idaho,2022,3,5.62
+Idaho,2022,4,5.67
+Idaho,2022,5,5.71
+Idaho,2022,6,5.8
+Idaho,2022,7,6.88
+Idaho,2022,8,7.59
+Idaho,2022,9,7.54
+Idaho,2022,10,7.72
+Idaho,2022,11,7.26
+Idaho,2022,12,8.04
+Idaho,2021,1,4.71
+Idaho,2021,2,5.12
+Idaho,2021,3,4.99
+Idaho,2021,4,5.02
+Idaho,2021,5,5.05
+Idaho,2021,6,4.88
+Idaho,2021,7,5.19
+Idaho,2021,8,5.08
+Idaho,2021,9,5.24
+Idaho,2021,10,5.33
+Idaho,2021,11,5.38
+Idaho,2021,12,5.33
+Idaho,2020,1,5.09
+Idaho,2020,2,4.83
+Idaho,2020,3,5.15
+Idaho,2020,4,4.95
+Idaho,2020,5,5.14
+Idaho,2020,6,5.21
+Idaho,2020,7,5.2
+Idaho,2020,8,4.84
+Idaho,2020,9,4.87
+Idaho,2020,10,4.9
+Idaho,2020,11,4.94
+Idaho,2020,12,4.85
+Idaho,2019,1,5
+Idaho,2019,2,5.08
+Idaho,2019,3,5.3
+Idaho,2019,4,5.49
+Idaho,2019,5,5.34
+Idaho,2019,6,5.29
+Idaho,2019,7,5.15
+Idaho,2019,8,5.02
+Idaho,2019,9,4.89
+Idaho,2019,10,5.02
+Idaho,2019,11,4.96
+Idaho,2019,12,5.05
+Idaho,2018,1,4.44
+Idaho,2018,2,4.94
+Idaho,2018,3,4.52
+Idaho,2018,6,5
+Idaho,2018,7,5.07
+Idaho,2018,8,4.87
+Idaho,2018,9,4.47
+Idaho,2018,10,4.5
+Idaho,2018,11,5.1
+Idaho,2018,12,5.16
+Idaho,2017,1,5.19
+Idaho,2017,4,5.44
+Idaho,2017,6,4.94
+Idaho,2017,7,5.16
+Idaho,2017,8,4.63
+Idaho,2017,9,4.59
+Idaho,2017,10,4.98
+Idaho,2017,11,5.16
+Idaho,2017,12,4.54
+Idaho,2016,1,5.69
+Idaho,2016,3,5.98
+Idaho,2016,4,6.15
+Idaho,2016,7,5.19
+Idaho,2016,8,5.18
+Idaho,2016,9,4.52
+Idaho,2016,10,4.89
+Idaho,2016,11,5.16
+Idaho,2016,12,5.08
+Idaho,2015,1,4.59
+Idaho,2015,2,5.53
+Idaho,2015,3,4.69
+Idaho,2015,4,3.69
+Idaho,2015,5,4.79
+Idaho,2015,6,4.3
+Idaho,2015,7,5.33
+Idaho,2015,8,5.99
+Idaho,2015,9,5.7
+Idaho,2015,10,5.67
+Idaho,2015,11,5.71
+Idaho,2015,12,6.16
+Idaho,2014,1,6.28
+Idaho,2014,2,6.38
+Idaho,2014,4,6.31
+Idaho,2014,5,6.54
+Idaho,2014,7,5.86
+Idaho,2014,8,5.48
+Idaho,2014,9,5.05
+Idaho,2014,10,5.38
+Idaho,2014,11,4.91
+Idaho,2014,12,5.22
+Idaho,2013,1,6.34
+Idaho,2013,2,6.57
+Idaho,2013,3,6.76
+Idaho,2013,4,6.27
+Idaho,2013,5,6.48
+Idaho,2013,6,6.7
+Idaho,2013,7,6.78
+Idaho,2013,8,6.37
+Idaho,2013,9,6.26
+Idaho,2013,10,6.3
+Idaho,2013,11,6.68
+Idaho,2013,12,6.44
+Idaho,2012,1,5.64
+Idaho,2012,2,5.81
+Idaho,2012,3,5.27
+Idaho,2012,4,5.69
+Idaho,2012,5,5.9
+Idaho,2012,6,5.13
+Idaho,2012,7,6.45
+Idaho,2012,8,6.58
+Idaho,2012,9,6.43
+Idaho,2012,10,6.56
+Idaho,2012,11,6.57
+Idaho,2012,12,6.5
+Idaho,2011,1,4
+Idaho,2011,2,4.26
+Idaho,2011,3,4.16
+Idaho,2011,4,4.92
+Idaho,2011,5,3.85
+Idaho,2011,6,4.31
+Idaho,2011,7,5.08
+Idaho,2011,8,5.46
+Idaho,2011,9,5.89
+Idaho,2011,10,5.62
+Idaho,2011,11,5.63
+Idaho,2011,12,5.81
+Idaho,2010,1,5.23
+Idaho,2010,2,4.85
+Idaho,2010,3,4.71
+Idaho,2010,4,5.12
+Idaho,2010,5,4.59
+Idaho,2010,6,5.09
+Idaho,2010,7,5.01
+Idaho,2010,8,3.99
+Idaho,2010,9,3.99
+Idaho,2010,10,3.99
+Idaho,2010,11,4.04
+Idaho,2010,12,3.99
+Idaho,2009,1,5.69
+Idaho,2009,2,4.58
+Idaho,2009,3,4.67
+Idaho,2009,4,5.54
+Idaho,2009,5,4.79
+Idaho,2009,6,5.52
+Idaho,2009,7,5.7
+Idaho,2009,8,5.66
+Idaho,2009,9,5.34
+Idaho,2009,10,4.72
+Idaho,2009,11,4.85
+Idaho,2009,12,4.76
+Idaho,2008,1,4.38
+Idaho,2008,2,4.22
+Idaho,2008,3,4.07
+Idaho,2008,4,4.33
+Idaho,2008,5,4.1
+Idaho,2008,6,3.77
+Idaho,2008,7,5.19
+Idaho,2008,8,5.91
+Idaho,2008,9,7.6
+Idaho,2008,10,6.52
+Idaho,2008,11,5.58
+Idaho,2008,12,5.91
+Idaho,2007,1,3.2
+Idaho,2007,2,3.22
+Idaho,2007,3,3.42
+Idaho,2007,4,3.25
+Idaho,2007,5,3.34
+Idaho,2007,6,3.24
+Idaho,2007,7,3.44
+Idaho,2007,8,3.74
+Idaho,2007,9,4.03
+Idaho,2007,10,4.4
+Idaho,2007,11,4.19
+Idaho,2007,12,4.41
+Idaho,2006,1,2.94
+Idaho,2006,2,2.91
+Idaho,2006,3,3.07
+Idaho,2006,4,3
+Idaho,2006,5,3.14
+Idaho,2006,6,3.22
+Idaho,2006,7,3.14
+Idaho,2006,8,3
+Idaho,2006,9,2.7
+Idaho,2006,10,2.98
+Idaho,2006,11,3.18
+Idaho,2006,12,3.2
+Idaho,2005,1,2.88
+Idaho,2005,2,3.05
+Idaho,2005,3,3.11
+Idaho,2005,4,3.04
+Idaho,2005,5,3.19
+Idaho,2005,6,3.25
+Idaho,2005,7,3.21
+Idaho,2005,8,3.08
+Idaho,2005,9,2.76
+Idaho,2005,10,2.71
+Idaho,2005,11,2.96
+Idaho,2005,12,2.82
+Idaho,2004,1,2.89
+Idaho,2004,2,3.14
+Idaho,2004,3,3.22
+Idaho,2004,4,3.18
+Idaho,2004,5,3
+Idaho,2004,6,3.32
+Idaho,2004,7,3.27
+Idaho,2004,8,3.13
+Idaho,2004,9,2.91
+Idaho,2004,10,2.74
+Idaho,2004,11,2.84
+Idaho,2004,12,2.92
+Idaho,2003,1,3.05
+Idaho,2003,2,3.15
+Idaho,2003,3,3.03
+Idaho,2003,4,3.14
+Idaho,2003,5,3.11
+Idaho,2003,6,3.1
+Idaho,2003,7,2.91
+Idaho,2003,8,3.2
+Idaho,2003,9,3.16
+Idaho,2003,10,2.95
+Idaho,2003,11,3.12
+Idaho,2003,12,3.28
+Idaho,2002,1,2.74
+Idaho,2002,2,2.87
+Idaho,2002,3,2.77
+Idaho,2002,4,2.69
+Idaho,2002,5,2.8
+Idaho,2002,6,2.74
+Idaho,2002,7,2.89
+Idaho,2002,8,3.05
+Idaho,2002,9,2.97
+Idaho,2002,10,2.9
+Idaho,2002,11,3.02
+Idaho,2002,12,3.09
+Idaho,2001,1,2.48
+Idaho,2001,2,2.68
+Idaho,2001,3,2.67
+Idaho,2001,4,2.71
+Idaho,2001,5,2.6
+Idaho,2001,6,2.23
+Idaho,2001,7,2.65
+Idaho,2001,8,2.98
+Idaho,2001,9,2.86
+Idaho,2001,10,2.79
+Idaho,2001,11,2.68
+Idaho,2001,12,2.53
+Idaho,2000,1,2.23
+Idaho,2000,2,2.57
+Idaho,2000,3,2.61
+Idaho,2000,4,2.48
+Idaho,2000,5,2.5
+Idaho,2000,6,2.55
+Idaho,2000,7,2.93
+Idaho,2000,8,2.86
+Idaho,2000,9,2.37
+Idaho,2000,10,2.16
+Idaho,2000,11,2.52
+Idaho,2000,12,2.62
+Minnesota,2021,1,4.31
+Minnesota,2021,2,4.25
+Minnesota,2021,3,4.22
+Minnesota,2021,4,4.31
+Minnesota,2021,5,4.57
+Minnesota,2021,6,5.08
+Minnesota,2021,7,4.63
+Minnesota,2021,8,5
+Minnesota,2021,9,5.25
+Minnesota,2021,12,5.31
+Minnesota,2020,1,4.3
+Minnesota,2020,7,4.34
+Minnesota,2020,8,4.4
+Minnesota,2020,10,4.26
+Minnesota,2019,2,4.46
+Minnesota,2019,3,4.41
+Minnesota,2019,8,4.48
+Minnesota,2019,9,4.35
+Minnesota,2019,11,4.47
+Minnesota,2018,1,4.39
+Minnesota,2018,2,4.39
+Minnesota,2018,3,4.44
+Minnesota,2018,4,4.12
+Minnesota,2018,5,4.08
+Minnesota,2018,7,4.03
+Minnesota,2018,8,4.15
+Minnesota,2018,9,4.21
+Minnesota,2017,1,4.37
+Minnesota,2017,2,4.22
+Minnesota,2017,3,4.1
+Minnesota,2017,4,3.94
+Minnesota,2017,6,4.37
+Minnesota,2017,7,4.2
+Minnesota,2017,8,4.11
+Minnesota,2017,11,4.43
+Minnesota,2017,12,4.32
+Minnesota,2016,1,4.99
+Minnesota,2016,2,4.94
+Minnesota,2016,3,5.76
+Minnesota,2016,4,5.26
+Minnesota,2016,5,4.26
+Minnesota,2016,6,5.17
+Minnesota,2016,8,2.94
+Minnesota,2016,9,3.56
+Minnesota,2016,10,4.16
+Minnesota,2016,12,4.14
+Minnesota,2015,1,5.67
+Minnesota,2015,2,5.43
+Minnesota,2015,3,5.24
+Minnesota,2015,4,5.45
+Minnesota,2015,5,4.97
+Minnesota,2015,6,5.33
+Minnesota,2015,7,5.33
+Minnesota,2015,8,5.58
+Minnesota,2015,9,5.36
+Minnesota,2015,10,4.93
+Minnesota,2015,11,5.28
+Minnesota,2015,12,5.22
+Minnesota,2014,1,6.75
+Minnesota,2014,2,6.32
+Minnesota,2014,4,5.5
+Minnesota,2014,6,5.95
+Minnesota,2014,7,5.21
+Minnesota,2014,8,5.71
+Minnesota,2014,9,4.97
+Minnesota,2014,10,4.93
+Minnesota,2014,11,5.38
+Minnesota,2014,12,5.45
+Minnesota,2013,5,7.04
+Minnesota,2013,7,5.74
+Minnesota,2013,8,6.36
+Minnesota,2013,9,6.18
+Minnesota,2012,4,5.03
+Minnesota,2011,1,3.83
+Minnesota,2011,4,4.07
+Minnesota,2011,6,5.69
+Minnesota,2011,7,4.9
+Minnesota,2011,10,5.5
+Minnesota,2010,2,4.48
+Minnesota,2010,7,3.86
+Minnesota,2009,7,3.54
+Minnesota,2008,1,3.76
+Minnesota,2008,2,4.01
+Minnesota,2008,3,3.81
+Minnesota,2008,4,4.76
+Minnesota,2008,5,4.12
+Minnesota,2008,11,4.83
+Minnesota,2007,1,2.66
+Minnesota,2007,2,3.12
+Minnesota,2007,3,3.06
+Minnesota,2007,4,2.85
+Minnesota,2007,5,3.22
+Minnesota,2007,6,3.16
+Minnesota,2007,7,3.01
+Minnesota,2007,8,3.28
+Minnesota,2007,9,3.66
+Minnesota,2007,10,4.53
+Minnesota,2007,11,3.87
+Minnesota,2007,12,3.69
+Minnesota,2006,3,1.91
+Minnesota,2006,7,1.91
+Minnesota,2006,8,2.15
+Minnesota,2006,9,2.51
+Minnesota,2006,10,2.52
+Minnesota,2006,11,2.66
+Minnesota,2006,12,2.64
+Minnesota,2005,1,2.56
+Minnesota,2005,3,2.41
+Minnesota,2005,4,1.94
+Minnesota,2005,7,1.96
+Minnesota,2004,7,2.45
+Minnesota,2004,8,1.99
+Minnesota,2004,9,1.64
+Minnesota,2004,10,1.86
+Minnesota,2004,11,2.31
+Minnesota,2004,12,2.03
+Minnesota,2003,1,3.04
+Minnesota,2003,2,2.28
+Minnesota,2003,3,2.51
+Minnesota,2003,4,2.49
+Minnesota,2003,5,3.09
+Minnesota,2003,7,2.35
+Minnesota,2003,8,2.29
+Minnesota,2003,9,2.35
+Minnesota,2003,11,2.65
+Minnesota,2002,1,2
+Minnesota,2002,2,1.83
+Minnesota,2002,3,1.74
+Minnesota,2002,4,2
+Minnesota,2002,6,2.15
+Minnesota,2002,7,1.97
+Minnesota,2002,8,1.75
+Minnesota,2002,9,1.93
+Minnesota,2002,10,2.36
+Minnesota,2002,11,2.11
+Minnesota,2002,12,2.55
+Minnesota,2001,1,1.8
+Minnesota,2001,2,1.75
+Minnesota,2001,3,1.74
+Minnesota,2001,4,1.73
+Minnesota,2001,5,1.62
+Minnesota,2001,6,1.48
+Minnesota,2001,7,1.54
+Minnesota,2001,8,1.53
+Minnesota,2001,9,1.45
+Minnesota,2001,10,1.54
+Minnesota,2001,11,1.72
+Minnesota,2001,12,1.72
+Minnesota,2000,1,1.68
+Minnesota,2000,2,1.69
+Minnesota,2000,3,1.68
+Minnesota,2000,4,1.8
+Minnesota,2000,5,1.75
+Minnesota,2000,6,1.71
+Minnesota,2000,7,1.57
+Minnesota,2000,8,1.41
+Minnesota,2000,9,1.49
+Minnesota,2000,10,1.38
+Minnesota,2000,11,1.66
+Minnesota,2000,12,1.78
+Montana,2022,1,6.15
+Montana,2022,2,6.67
+Montana,2022,3,7.18
+Montana,2022,4,7.29
+Montana,2022,5,7.48
+Montana,2022,6,7.95
+Montana,2022,7,7.16
+Montana,2022,8,7.22
+Montana,2022,9,7.35
+Montana,2022,10,7.28
+Montana,2022,11,7.09
+Montana,2022,12,7.46
+Montana,2021,1,4.3
+Montana,2021,2,4.68
+Montana,2021,3,4.5
+Montana,2021,4,4.11
+Montana,2021,5,4.35
+Montana,2021,6,4.39
+Montana,2021,7,4.68
+Montana,2021,8,4.9
+Montana,2021,9,5.38
+Montana,2021,10,5.24
+Montana,2021,11,5.09
+Montana,2021,12,5.65
+Montana,2020,1,4.54
+Montana,2020,2,4.21
+Montana,2020,3,4.66
+Montana,2020,4,3.95
+Montana,2020,5,3.77
+Montana,2020,6,3.71
+Montana,2020,7,3.9
+Montana,2020,8,4.45
+Montana,2020,9,4.35
+Montana,2020,10,4.49
+Montana,2020,11,4.52
+Montana,2020,12,4.35
+Montana,2019,1,4.48
+Montana,2019,2,4.4
+Montana,2019,3,4.65
+Montana,2019,4,4.67
+Montana,2019,6,4.21
+Montana,2019,7,3.55
+Montana,2019,8,4.78
+Montana,2019,9,4.29
+Montana,2019,10,4.43
+Montana,2019,11,4.38
+Montana,2019,12,4.26
+Montana,2018,1,4.34
+Montana,2018,2,4.05
+Montana,2018,3,4.49
+Montana,2018,4,4.32
+Montana,2018,5,4.51
+Montana,2018,6,3.94
+Montana,2018,7,3.59
+Montana,2018,8,4.53
+Montana,2018,9,4.89
+Montana,2018,10,4.17
+Montana,2018,11,4.94
+Montana,2018,12,4.62
+Montana,2017,1,5.1
+Montana,2017,2,5.15
+Montana,2017,3,5.01
+Montana,2017,4,5.15
+Montana,2017,5,5.01
+Montana,2017,6,4.19
+Montana,2017,7,4.48
+Montana,2017,8,4.63
+Montana,2017,9,4.02
+Montana,2017,10,3.8
+Montana,2017,11,4.27
+Montana,2017,12,4.21
+Montana,2016,1,5.88
+Montana,2016,2,5.97
+Montana,2016,3,5.4
+Montana,2016,4,5.22
+Montana,2016,6,4.37
+Montana,2016,7,5.22
+Montana,2016,8,5.28
+Montana,2016,9,5.16
+Montana,2016,10,5.26
+Montana,2016,11,4.93
+Montana,2016,12,5.19
+Montana,2015,1,4.6
+Montana,2015,2,5.05
+Montana,2015,3,4.65
+Montana,2015,4,5.07
+Montana,2015,5,4.45
+Montana,2015,6,4.82
+Montana,2015,7,5.31
+Montana,2015,8,5.78
+Montana,2015,9,6.19
+Montana,2015,10,5.85
+Montana,2015,11,5.86
+Montana,2015,12,6.06
+Montana,2014,1,6.49
+Montana,2014,2,6.38
+Montana,2014,3,6.14
+Montana,2014,4,5.82
+Montana,2014,5,5.62
+Montana,2014,6,5.95
+Montana,2014,7,5.53
+Montana,2014,8,6.02
+Montana,2014,9,5.36
+Montana,2014,10,5.54
+Montana,2014,11,4.98
+Montana,2014,12,4.9
+Montana,2013,1,6.52
+Montana,2013,2,6.49
+Montana,2013,3,6.34
+Montana,2013,4,6.32
+Montana,2013,5,6.46
+Montana,2013,6,6.31
+Montana,2013,7,6.38
+Montana,2013,8,6.68
+Montana,2013,9,6.25
+Montana,2013,10,6.35
+Montana,2013,11,6.23
+Montana,2013,12,6.17
+Montana,2012,1,5.12
+Montana,2012,2,5.04
+Montana,2012,3,5.51
+Montana,2012,4,6.02
+Montana,2012,5,5.51
+Montana,2012,6,5.77
+Montana,2012,7,6.21
+Montana,2012,8,6.55
+Montana,2012,9,6.43
+Montana,2012,10,6.48
+Montana,2012,11,6.48
+Montana,2012,12,6.29
+Montana,2011,1,3.91
+Montana,2011,2,3.99
+Montana,2011,3,4.28
+Montana,2011,4,4.43
+Montana,2011,5,4.17
+Montana,2011,6,4.55
+Montana,2011,7,4.96
+Montana,2011,8,5.06
+Montana,2011,9,5.23
+Montana,2011,10,5.54
+Montana,2011,11,5.31
+Montana,2011,12,5.33
+Montana,2010,1,4.95
+Montana,2010,2,4.75
+Montana,2010,3,4.41
+Montana,2010,4,4.22
+Montana,2010,5,4.86
+Montana,2010,6,4.28
+Montana,2010,7,3.91
+Montana,2010,8,4.26
+Montana,2010,9,3.83
+Montana,2010,10,3.57
+Montana,2010,11,3.83
+Montana,2010,12,3.7
+Montana,2009,1,5.55
+Montana,2009,2,5.56
+Montana,2009,3,5.39
+Montana,2009,4,5.3
+Montana,2009,5,5.05
+Montana,2009,6,4.83
+Montana,2009,7,5.82
+Montana,2009,8,5.76
+Montana,2009,9,5.21
+Montana,2009,10,4.92
+Montana,2009,11,4.51
+Montana,2009,12,4.76
+Montana,2008,1,4.78
+Montana,2008,2,4.39
+Montana,2008,3,4.23
+Montana,2008,4,4.65
+Montana,2008,5,5.28
+Montana,2008,6,4.11
+Montana,2008,7,5.55
+Montana,2008,8,5.67
+Montana,2008,9,5.89
+Montana,2008,10,6.25
+Montana,2008,11,6.25
+Montana,2008,12,6.05
+Montana,2007,1,3.15
+Montana,2007,2,3.17
+Montana,2007,3,3.28
+Montana,2007,4,3.28
+Montana,2007,5,3.18
+Montana,2007,6,3.22
+Montana,2007,7,3.77
+Montana,2007,8,3.59
+Montana,2007,9,3.74
+Montana,2007,10,4.26
+Montana,2007,11,3.73
+Montana,2007,12,5.05
+Montana,2006,1,2.65
+Montana,2006,2,2.76
+Montana,2006,3,3.04
+Montana,2006,4,2.82
+Montana,2006,5,3.21
+Montana,2006,6,2.95
+Montana,2006,7,2.6
+Montana,2006,8,2.87
+Montana,2006,9,2.78
+Montana,2006,10,2.81
+Montana,2006,11,2.9
+Montana,2006,12,3.05
+Montana,2005,1,2.77
+Montana,2005,2,2.77
+Montana,2005,3,2.72
+Montana,2005,4,2.84
+Montana,2005,5,2.8
+Montana,2005,6,2.91
+Montana,2005,7,2.97
+Montana,2005,8,3.04
+Montana,2005,9,2.68
+Montana,2005,10,2.73
+Montana,2005,11,2.89
+Montana,2005,12,2.85
+Montana,2004,1,2.52
+Montana,2004,2,2.98
+Montana,2004,3,3.01
+Montana,2004,4,2.86
+Montana,2004,5,2.81
+Montana,2004,6,2.45
+Montana,2004,7,1.92
+Montana,2004,8,3.11
+Montana,2004,9,2.93
+Montana,2004,10,2.62
+Montana,2004,11,2.92
+Montana,2004,12,2.89
+Montana,2003,1,2.82
+Montana,2003,2,2.8
+Montana,2003,3,2.95
+Montana,2003,4,2.88
+Montana,2003,5,2.44
+Montana,2003,6,2.26
+Montana,2003,7,2.95
+Montana,2003,8,3.14
+Montana,2003,9,3.03
+Montana,2003,10,2.68
+Montana,2003,11,2.57
+Montana,2003,12,3.03
+Montana,2002,1,2.62
+Montana,2002,2,2.73
+Montana,2002,3,2.52
+Montana,2002,4,2.49
+Montana,2002,5,2.5
+Montana,2002,6,2.34
+Montana,2002,7,2.61
+Montana,2002,8,3.07
+Montana,2002,9,2.77
+Montana,2002,10,2.77
+Montana,2002,11,2.79
+Montana,2002,12,2.96
+Montana,2001,1,2.39
+Montana,2001,2,2.48
+Montana,2001,3,2.27
+Montana,2001,4,2.15
+Montana,2001,5,2.02
+Montana,2001,6,2.04
+Montana,2001,7,2.55
+Montana,2001,8,2.91
+Montana,2001,9,2.5
+Montana,2001,10,2.56
+Montana,2001,11,2.69
+Montana,2001,12,2.72
+Montana,2000,1,2.32
+Montana,2000,2,2.33
+Montana,2000,3,2.38
+Montana,2000,4,2.27
+Montana,2000,5,2.17
+Montana,2000,6,1.77
+Montana,2000,7,2.79
+Montana,2000,8,2.38
+Montana,2000,9,1.94
+Montana,2000,10,2.34
+Montana,2000,11,2.38
+Montana,2000,12,2.57
+North Dakota,2022,1,5.43
+North Dakota,2022,2,5.47
+North Dakota,2022,3,5.75
+North Dakota,2022,4,5.71
+North Dakota,2022,5,6.17
+North Dakota,2022,6,6.1
+North Dakota,2022,7,5.91
+North Dakota,2022,8,7.23
+North Dakota,2022,9,7.52
+North Dakota,2022,10,7.58
+North Dakota,2022,11,7.37
+North Dakota,2022,12,7.08
+North Dakota,2021,1,4.54
+North Dakota,2021,2,4.86
+North Dakota,2021,3,4.85
+North Dakota,2021,4,4.73
+North Dakota,2021,5,4.56
+North Dakota,2021,6,4.95
+North Dakota,2021,7,4.87
+North Dakota,2021,8,5.21
+North Dakota,2021,9,5.15
+North Dakota,2021,10,5.65
+North Dakota,2021,11,5.26
+North Dakota,2021,12,5.42
+North Dakota,2020,1,4.26
+North Dakota,2020,2,4.16
+North Dakota,2020,3,4.06
+North Dakota,2020,4,4.17
+North Dakota,2020,5,3.79
+North Dakota,2020,6,3.9
+North Dakota,2020,7,4.05
+North Dakota,2020,8,4.05
+North Dakota,2020,9,4.59
+North Dakota,2020,10,4.28
+North Dakota,2020,11,4.64
+North Dakota,2020,12,4.85
+North Dakota,2019,1,4.18
+North Dakota,2019,2,4.3
+North Dakota,2019,3,4.37
+North Dakota,2019,4,4.29
+North Dakota,2019,5,4.19
+North Dakota,2019,6,4.45
+North Dakota,2019,7,4.22
+North Dakota,2019,8,4.11
+North Dakota,2019,9,4.06
+North Dakota,2019,10,4.27
+North Dakota,2019,11,4.65
+North Dakota,2019,12,4.2
+North Dakota,2018,1,4.43
+North Dakota,2018,2,4.44
+North Dakota,2018,3,4.3
+North Dakota,2018,4,4.13
+North Dakota,2018,5,4.13
+North Dakota,2018,6,4.45
+North Dakota,2018,7,4.18
+North Dakota,2018,8,4.15
+North Dakota,2018,9,4.11
+North Dakota,2018,10,4.05
+North Dakota,2018,11,4.4
+North Dakota,2018,12,4.26
+North Dakota,2017,1,4.63
+North Dakota,2017,2,4.62
+North Dakota,2017,3,4.37
+North Dakota,2017,4,4.24
+North Dakota,2017,5,4.36
+North Dakota,2017,6,4.35
+North Dakota,2017,7,4.34
+North Dakota,2017,8,4.23
+North Dakota,2017,9,4.18
+North Dakota,2017,10,4.43
+North Dakota,2017,11,4.22
+North Dakota,2017,12,4.32
+North Dakota,2016,1,4.76
+North Dakota,2016,2,4.79
+North Dakota,2016,3,4.97
+North Dakota,2016,4,4.87
+North Dakota,2016,5,5
+North Dakota,2016,6,5.26
+North Dakota,2016,7,4.75
+North Dakota,2016,8,4.04
+North Dakota,2016,9,4.44
+North Dakota,2016,10,4.26
+North Dakota,2016,11,4.59
+North Dakota,2016,12,5.1
+North Dakota,2015,1,5.29
+North Dakota,2015,2,5.2
+North Dakota,2015,3,5.08
+North Dakota,2015,4,5.09
+North Dakota,2015,5,5.16
+North Dakota,2015,6,5.4
+North Dakota,2015,7,4.86
+North Dakota,2015,8,4.74
+North Dakota,2015,9,4.82
+North Dakota,2015,10,4.83
+North Dakota,2015,11,5.04
+North Dakota,2015,12,5
+North Dakota,2014,1,6.11
+North Dakota,2014,2,5.87
+North Dakota,2014,3,5.88
+North Dakota,2014,4,5.92
+North Dakota,2014,5,5.98
+North Dakota,2014,6,5.9
+North Dakota,2014,7,5.69
+North Dakota,2014,8,5.32
+North Dakota,2014,9,5.25
+North Dakota,2014,10,5.32
+North Dakota,2014,11,5.4
+North Dakota,2014,12,5.31
+North Dakota,2013,1,6.57
+North Dakota,2013,2,6.42
+North Dakota,2013,3,6.45
+North Dakota,2013,4,6.39
+North Dakota,2013,5,6.58
+North Dakota,2013,6,6.43
+North Dakota,2013,7,6.32
+North Dakota,2013,8,5.96
+North Dakota,2013,9,6.3
+North Dakota,2013,10,6.18
+North Dakota,2013,11,6.36
+North Dakota,2013,12,6.37
+North Dakota,2012,1,5.59
+North Dakota,2012,2,5.63
+North Dakota,2012,3,5.42
+North Dakota,2012,4,5.45
+North Dakota,2012,5,5.56
+North Dakota,2012,6,5.65
+North Dakota,2012,7,6.32
+North Dakota,2012,8,6.62
+North Dakota,2012,9,6.96
+North Dakota,2012,10,6.58
+North Dakota,2012,11,6.54
+North Dakota,2012,12,6.47
+North Dakota,2011,1,3.61
+North Dakota,2011,2,3.81
+North Dakota,2011,3,4.35
+North Dakota,2011,4,4.16
+North Dakota,2011,5,4.24
+North Dakota,2011,6,4.65
+North Dakota,2011,7,5.1
+North Dakota,2011,8,5.35
+North Dakota,2011,9,5.42
+North Dakota,2011,10,5.79
+North Dakota,2011,11,5.43
+North Dakota,2011,12,5.59
+North Dakota,2010,1,4.11
+North Dakota,2010,2,3.97
+North Dakota,2010,3,3.99
+North Dakota,2010,4,3.36
+North Dakota,2010,5,3.21
+North Dakota,2010,6,3.05
+North Dakota,2010,7,3.44
+North Dakota,2010,8,3.08
+North Dakota,2010,9,3.11
+North Dakota,2010,10,3.56
+North Dakota,2010,11,3.7
+North Dakota,2010,12,3.73
+North Dakota,2009,1,5.23
+North Dakota,2009,2,5.37
+North Dakota,2009,3,5.38
+North Dakota,2009,4,5.01
+North Dakota,2009,5,4.76
+North Dakota,2009,6,4.83
+North Dakota,2009,7,4.6
+North Dakota,2009,8,3.72
+North Dakota,2009,9,3.77
+North Dakota,2009,10,3.86
+North Dakota,2009,11,4.34
+North Dakota,2009,12,4.26
+North Dakota,2008,1,4.03
+North Dakota,2008,2,4.47
+North Dakota,2008,3,4.17
+North Dakota,2008,4,4.49
+North Dakota,2008,5,5.25
+North Dakota,2008,6,4.85
+North Dakota,2008,7,4.77
+North Dakota,2008,8,5.15
+North Dakota,2008,9,5.27
+North Dakota,2008,10,5.25
+North Dakota,2008,11,5.26
+North Dakota,2008,12,5.36
+North Dakota,2007,1,2.82
+North Dakota,2007,2,2.89
+North Dakota,2007,3,2.93
+North Dakota,2007,4,2.91
+North Dakota,2007,5,3.02
+North Dakota,2007,6,3.28
+North Dakota,2007,7,3.3
+North Dakota,2007,8,3.31
+North Dakota,2007,9,3.86
+North Dakota,2007,10,4.1
+North Dakota,2007,11,4.45
+North Dakota,2007,12,4.14
+North Dakota,2006,1,2.1
+North Dakota,2006,2,2.14
+North Dakota,2006,3,2.2
+North Dakota,2006,4,2.16
+North Dakota,2006,5,2.28
+North Dakota,2006,6,2.1
+North Dakota,2006,7,2.19
+North Dakota,2006,8,2.23
+North Dakota,2006,9,2.31
+North Dakota,2006,10,2.41
+North Dakota,2006,11,2.72
+North Dakota,2006,12,2.75
+North Dakota,2005,1,2.13
+North Dakota,2005,2,2.04
+North Dakota,2005,3,2.27
+North Dakota,2005,4,1.9
+North Dakota,2005,5,2
+North Dakota,2005,6,1.93
+North Dakota,2005,7,1.91
+North Dakota,2005,8,1.67
+North Dakota,2005,9,1.76
+North Dakota,2005,10,1.9
+North Dakota,2005,11,2.07
+North Dakota,2005,12,2.11
+North Dakota,2004,1,2.52
+North Dakota,2004,2,2.57
+North Dakota,2004,3,2.48
+North Dakota,2004,4,2.51
+North Dakota,2004,5,2.5
+North Dakota,2004,6,2.48
+North Dakota,2004,7,2.42
+North Dakota,2004,8,2.25
+North Dakota,2004,9,1.94
+North Dakota,2004,10,1.98
+North Dakota,2004,11,2.02
+North Dakota,2004,12,2.23
+North Dakota,2003,1,2.79
+North Dakota,2003,2,2.87
+North Dakota,2003,3,2.81
+North Dakota,2003,4,2.79
+North Dakota,2003,5,2.91
+North Dakota,2003,6,3.01
+North Dakota,2003,7,2.79
+North Dakota,2003,8,2.59
+North Dakota,2003,9,2.55
+North Dakota,2003,10,2.75
+North Dakota,2003,11,2.73
+North Dakota,2003,12,2.63
+North Dakota,2002,1,1.74
+North Dakota,2002,2,1.74
+North Dakota,2002,3,1.72
+North Dakota,2002,4,1.65
+North Dakota,2002,5,1.72
+North Dakota,2002,6,1.7
+North Dakota,2002,7,1.73
+North Dakota,2002,8,2.05
+North Dakota,2002,9,2.1
+North Dakota,2002,10,2.27
+North Dakota,2002,11,2.71
+North Dakota,2002,12,2.89
+North Dakota,2001,1,1.74
+North Dakota,2001,2,1.76
+North Dakota,2001,3,1.73
+North Dakota,2001,4,1.65
+North Dakota,2001,5,1.67
+North Dakota,2001,6,1.55
+North Dakota,2001,7,1.65
+North Dakota,2001,8,1.62
+North Dakota,2001,9,1.82
+North Dakota,2001,10,1.76
+North Dakota,2001,11,1.79
+North Dakota,2001,12,1.75
+North Dakota,2000,1,1.98
+North Dakota,2000,2,1.85
+North Dakota,2000,3,1.91
+North Dakota,2000,4,1.86
+North Dakota,2000,5,2.06
+North Dakota,2000,6,1.75
+North Dakota,2000,7,1.73
+North Dakota,2000,8,1.42
+North Dakota,2000,9,1.46
+North Dakota,2000,10,1.66
+North Dakota,2000,11,1.7
+North Dakota,2000,12,1.76
+Oregon,2016,2,2.66
+Oregon,2015,4,3.85
+Oregon,2015,8,3.34
+Oregon,2015,9,3.24
+Oregon,2014,1,3.72
+Oregon,2014,3,3.84
+Oregon,2013,8,4.39
+Oregon,2013,9,4.22
+Oregon,2013,10,3.68
+Oregon,2013,11,3.71
+Oregon,2013,12,3.95
+Oregon,2012,1,4.06
+Oregon,2012,2,4.29
+Oregon,2012,3,4.09
+Oregon,2012,4,4.46
+Oregon,2012,5,4.47
+Oregon,2012,6,4.4
+Oregon,2012,7,5.2
+Oregon,2012,8,5.99
+Oregon,2012,9,6.32
+Oregon,2012,10,6.36
+Oregon,2011,1,3.95
+Oregon,2011,2,4.21
+Oregon,2011,3,4.29
+Oregon,2011,4,4.8
+Oregon,2011,5,4.93
+Oregon,2011,6,4.78
+Oregon,2011,7,4.37
+Oregon,2011,8,5.59
+Oregon,2011,9,4.59
+Oregon,2011,10,4.61
+Oregon,2011,11,4.34
+Oregon,2011,12,4.28
+Oregon,2010,1,2.56
+Oregon,2010,2,3.11
+Oregon,2010,3,3.03
+Oregon,2010,4,3.56
+Oregon,2010,5,3.12
+Oregon,2010,6,2.75
+Oregon,2010,7,2.88
+Oregon,2010,8,3.08
+Oregon,2010,9,3.2
+Oregon,2010,10,3.58
+Oregon,2010,11,3.89
+Oregon,2010,12,3.95
+Oregon,2009,1,3.05
+Oregon,2009,2,2.75
+Oregon,2009,3,2.72
+Oregon,2009,4,2.44
+Oregon,2009,5,2.69
+Oregon,2009,6,2.67
+Oregon,2009,7,3.19
+Oregon,2009,8,3
+Oregon,2009,9,2.7
+Oregon,2009,10,2.79
+Oregon,2009,11,2.27
+Oregon,2009,12,2.98
+Oregon,2008,1,5.8
+Oregon,2008,2,5.84
+Oregon,2008,3,5.1
+Oregon,2008,4,5.17
+Oregon,2008,5,4.69
+Oregon,2008,6,5.04
+Oregon,2008,7,5.16
+Oregon,2008,8,5.08
+Oregon,2008,9,4.84
+Oregon,2008,10,4.73
+Oregon,2008,11,3.2
+Oregon,2008,12,2.1
+Oregon,2007,1,3.71
+Oregon,2007,2,4.27
+Oregon,2007,3,3.56
+Oregon,2007,4,3.71
+Oregon,2007,5,3.67
+Oregon,2007,6,3.8
+Oregon,2007,7,3.72
+Oregon,2007,8,3.85
+Oregon,2007,9,4.95
+Oregon,2007,10,6.16
+Oregon,2007,11,6.24
+Oregon,2007,12,6.39
+Oregon,2006,1,2.11
+Oregon,2006,2,2.11
+Oregon,2006,3,2.1
+Oregon,2006,4,2.24
+Oregon,2006,5,2.25
+Oregon,2006,6,2.31
+Oregon,2006,7,2.29
+Oregon,2006,8,2.31
+Oregon,2006,9,2.46
+Oregon,2006,10,2.72
+Oregon,2006,11,3.37
+Oregon,2006,12,3.65
+Oregon,2005,1,2.04
+Oregon,2005,2,2.09
+Oregon,2005,3,2.11
+Oregon,2005,4,2.17
+Oregon,2005,5,2.16
+Oregon,2005,7,2.11
+Oregon,2005,8,2.18
+Oregon,2005,9,2.15
+Oregon,2005,10,2.1
+Oregon,2005,11,2.23
+Oregon,2005,12,2.1
+Oregon,2004,1,2.43
+Oregon,2004,2,2.47
+Oregon,2004,3,2.3
+Oregon,2004,4,2.62
+Oregon,2004,5,2.58
+Oregon,2004,7,2.24
+Oregon,2004,8,1.76
+Oregon,2004,9,1.86
+Oregon,2004,10,1.73
+Oregon,2004,11,1.88
+Oregon,2004,12,1.9
+Oregon,2003,1,2.36
+Oregon,2003,2,2.34
+Oregon,2003,3,2.35
+Oregon,2003,4,2.51
+Oregon,2003,5,2.23
+Oregon,2003,6,2.34
+Oregon,2003,7,2.36
+Oregon,2003,8,2.43
+Oregon,2003,9,2.53
+Oregon,2003,10,2.48
+Oregon,2003,11,2.64
+Oregon,2003,12,2.52
+Oregon,2002,1,2.02
+Oregon,2002,2,2.02
+Oregon,2002,3,1.97
+Oregon,2002,4,2.08
+Oregon,2002,5,1.98
+Oregon,2002,6,2.06
+Oregon,2002,7,2.08
+Oregon,2002,8,2.3
+Oregon,2002,9,2.43
+Oregon,2002,10,2.55
+Oregon,2002,11,2.54
+Oregon,2002,12,2.51
+Oregon,2001,1,2.08
+Oregon,2001,2,1.95
+Oregon,2001,3,2.06
+Oregon,2001,4,2.11
+Oregon,2001,5,2.21
+Oregon,2001,6,2.15
+Oregon,2001,7,2.07
+Oregon,2001,8,2.02
+Oregon,2001,9,2.1
+Oregon,2001,10,2.26
+Oregon,2001,11,2.09
+Oregon,2001,12,2.13
+Oregon,2000,1,2.03
+Oregon,2000,2,2.01
+Oregon,2000,3,1.96
+Oregon,2000,4,1.96
+Oregon,2000,5,1.96
+Oregon,2000,6,1.83
+Oregon,2000,7,1.65
+Oregon,2000,8,1.71
+Oregon,2000,9,1.85
+Oregon,2000,10,1.84
+Oregon,2000,11,2.02
+Oregon,2000,12,2.13
+South Dakota,2008,9,5.47
+South Dakota,2007,5,3.08
+South Dakota,2006,2,2.29
+South Dakota,2006,3,2.21
+South Dakota,2006,5,2.11
+South Dakota,2006,10,1.86
+South Dakota,2005,1,2.04
+South Dakota,2005,2,1.96
+South Dakota,2005,3,1.98
+South Dakota,2005,4,1.92
+South Dakota,2005,5,1.94
+South Dakota,2005,6,2.08
+South Dakota,2005,7,2.06
+South Dakota,2005,8,2.02
+South Dakota,2005,9,1.99
+South Dakota,2005,10,2
+South Dakota,2005,11,1.8
+South Dakota,2005,12,1.99
+South Dakota,2004,2,2.26
+South Dakota,2004,3,2.27
+South Dakota,2004,4,1.7
+South Dakota,2004,5,2.4
+South Dakota,2004,6,2.43
+South Dakota,2004,7,2.41
+South Dakota,2004,8,2.01
+South Dakota,2004,9,1.93
+South Dakota,2004,10,1.33
+South Dakota,2004,11,2.09
+South Dakota,2004,12,2
+South Dakota,2003,1,2.5
+South Dakota,2003,2,2.1
+South Dakota,2003,4,3.22
+South Dakota,2003,5,3.28
+South Dakota,2003,6,2.83
+South Dakota,2003,7,2.61
+South Dakota,2003,8,2.54
+South Dakota,2003,9,2.23
+South Dakota,2003,10,1.99
+South Dakota,2003,11,2.37
+South Dakota,2003,12,2.25
+South Dakota,2002,1,1.69
+South Dakota,2002,2,1.59
+South Dakota,2002,3,1.69
+South Dakota,2002,4,1.61
+South Dakota,2002,5,1.58
+South Dakota,2002,6,1.34
+South Dakota,2002,7,1.58
+South Dakota,2002,8,1.74
+South Dakota,2002,9,1.95
+South Dakota,2002,10,1.84
+South Dakota,2002,11,1.9
+South Dakota,2001,1,2.03
+South Dakota,2001,2,1.91
+South Dakota,2001,3,2.04
+South Dakota,2001,4,2.19
+South Dakota,2001,5,1.93
+South Dakota,2001,6,1.88
+South Dakota,2001,7,1.94
+South Dakota,2001,8,2.08
+South Dakota,2001,9,2.07
+South Dakota,2001,10,2.22
+South Dakota,2001,11,2.15
+South Dakota,2000,1,2.36
+South Dakota,2000,2,2.27
+South Dakota,2000,3,2.11
+South Dakota,2000,4,2.15
+South Dakota,2000,5,2.27
+South Dakota,2000,6,2.12
+South Dakota,2000,7,1.89
+South Dakota,2000,8,1.81
+South Dakota,2000,9,2.07
+South Dakota,2000,10,1.9
+South Dakota,2000,11,1.83
+South Dakota,2000,12,2.03
+Utah,2016,1,3.48
+Utah,2015,7,2.84
+Utah,2015,12,3.56
+Utah,2014,2,3.88
+Utah,2014,3,4.08
+Utah,2014,4,4.11
+Utah,2014,5,4.08
+Utah,2014,6,5.18
+Utah,2014,7,3.87
+Utah,2014,8,3.55
+Utah,2013,1,5.73
+Utah,2013,3,5.68
+Utah,2013,5,5.8
+Utah,2013,6,5.76
+Utah,2013,8,4.32
+Utah,2013,10,3.91
+Utah,2013,12,3.84
+Utah,2012,2,5.19
+Utah,2012,4,5.22
+Utah,2012,6,5.15
+Utah,2012,7,5.79
+Utah,2012,8,5.96
+Utah,2012,9,5.91
+Utah,2012,10,5.8
+Utah,2012,11,5.95
+Utah,2011,1,4.38
+Utah,2011,2,4.49
+Utah,2011,3,5
+Utah,2011,4,5.61
+Utah,2011,6,5.38
+Utah,2011,8,5.55
+Utah,2011,9,5.8
+Utah,2011,10,5.18
+Utah,2011,11,5.43
+Utah,2011,12,5.53
+Utah,2010,1,2.89
+Utah,2010,2,3.03
+Utah,2010,3,2.95
+Utah,2010,4,2.91
+Utah,2010,5,2.97
+Utah,2010,6,3.21
+Utah,2010,7,2.66
+Utah,2010,8,2.88
+Utah,2010,9,3.05
+Utah,2010,10,3.11
+Utah,2010,11,3.73
+Utah,2010,12,4.35
+Utah,2009,5,3.23
+Utah,2009,8,2.5
+Utah,2009,9,2.25
+Utah,2009,10,2.14
+Utah,2009,11,2.49
+Utah,2009,12,2.72
+Utah,2008,1,6.03
+Utah,2008,3,4.76
+Utah,2008,8,4.56
+Utah,2008,9,4.45
+Utah,2008,10,4.07
+Utah,2007,1,3.65
+Utah,2007,2,3.91
+Utah,2007,3,3.7
+Utah,2007,4,3.18
+Utah,2007,5,3.72
+Utah,2007,7,3.38
+Utah,2007,8,3.39
+Utah,2007,9,4.71
+Utah,2007,10,5.59
+Utah,2007,11,5.22
+Utah,2007,12,4.99
+Utah,2006,1,2.34
+Utah,2006,2,2.11
+Utah,2006,3,2.17
+Utah,2006,4,2.29
+Utah,2006,5,2.2
+Utah,2006,7,2.36
+Utah,2006,8,2.39
+Utah,2006,9,2.58
+Utah,2006,10,2.95
+Utah,2006,11,2.72
+Utah,2006,12,3.4
+Utah,2005,1,2.11
+Utah,2005,2,1.96
+Utah,2005,3,1.89
+Utah,2005,4,2.04
+Utah,2005,6,2.1
+Utah,2005,7,2.03
+Utah,2005,8,1.94
+Utah,2005,9,1.96
+Utah,2005,11,2.09
+Utah,2004,1,2.39
+Utah,2004,2,2.74
+Utah,2004,3,2.59
+Utah,2004,4,2.72
+Utah,2004,5,2.71
+Utah,2004,6,2.51
+Utah,2004,7,2.42
+Utah,2004,8,2.3
+Utah,2004,9,2.05
+Utah,2004,10,1.96
+Utah,2004,11,2.39
+Utah,2004,12,1.91
+Utah,2003,1,2.58
+Utah,2003,2,2.52
+Utah,2003,3,2.58
+Utah,2003,4,2.75
+Utah,2003,5,2.54
+Utah,2003,6,2.57
+Utah,2003,7,2.12
+Utah,2003,8,2.25
+Utah,2003,9,2.35
+Utah,2003,10,2.25
+Utah,2003,11,2.28
+Utah,2003,12,2.44
+Utah,2002,1,2.3
+Utah,2002,2,2.28
+Utah,2002,3,2.34
+Utah,2002,4,2.29
+Utah,2002,5,2.27
+Utah,2002,6,2.34
+Utah,2002,7,2.15
+Utah,2002,8,2.27
+Utah,2002,9,2.46
+Utah,2002,10,2.43
+Utah,2002,11,2.45
+Utah,2002,12,2.56
+Utah,2001,1,2.1
+Utah,2001,2,2.1
+Utah,2001,3,2.14
+Utah,2001,4,2.13
+Utah,2001,5,2.28
+Utah,2001,6,1.92
+Utah,2001,7,2.02
+Utah,2001,8,2.03
+Utah,2001,9,2.04
+Utah,2001,10,2.11
+Utah,2001,11,1.99
+Utah,2001,12,2.22
+Utah,2000,1,2.05
+Utah,2000,2,1.97
+Utah,2000,3,1.89
+Utah,2000,4,2.02
+Utah,2000,5,2.04
+Utah,2000,6,1.92
+Utah,2000,7,1.95
+Utah,2000,8,2.01
+Utah,2000,9,1.8
+Utah,2000,10,1.89
+Utah,2000,11,1.88
+Utah,2000,12,2.12
+Washington,2022,1,5.91
+Washington,2022,2,5.44
+Washington,2022,3,6.38
+Washington,2022,5,8.38
+Washington,2022,6,8.31
+Washington,2022,9,6.74
+Washington,2022,10,6.7
+Washington,2022,11,7.03
+Washington,2022,12,7.26
+Washington,2021,1,5.37
+Washington,2021,2,5.16
+Washington,2021,3,5.25
+Washington,2021,4,5.51
+Washington,2021,5,5.67
+Washington,2021,6,4.33
+Washington,2021,9,4.56
+Washington,2021,10,5.98
+Washington,2021,11,5.54
+Washington,2021,12,5.77
+Washington,2020,1,5.02
+Washington,2020,5,5.19
+Washington,2020,7,5.69
+Washington,2020,9,5.12
+Washington,2020,10,5.21
+Washington,2020,11,5.06
+Washington,2020,12,5.14
+Washington,2019,1,3.05
+Washington,2019,2,3.47
+Washington,2019,9,4
+Washington,2019,10,4.32
+Washington,2019,11,4.65
+Washington,2019,12,4.99
+Washington,2018,1,2.92
+Washington,2018,2,3.01
+Washington,2018,3,3.16
+Washington,2018,4,3.54
+Washington,2018,5,2.62
+Washington,2018,8,4.39
+Washington,2018,9,2.94
+Washington,2018,10,3.88
+Washington,2018,11,3.04
+Washington,2018,12,3.2
+Washington,2017,1,2.89
+Washington,2017,2,2.62
+Washington,2017,3,2.71
+Washington,2017,4,2.36
+Washington,2017,5,3.75
+Washington,2017,6,2.32
+Washington,2017,7,2.56
+Washington,2017,8,2.51
+Washington,2017,9,2.48
+Washington,2017,12,2.09
+Washington,2016,1,3.19
+Washington,2016,2,3.3
+Washington,2016,3,3.2
+Washington,2016,4,3.03
+Washington,2016,5,2.68
+Washington,2016,6,2.94
+Washington,2016,7,2.95
+Washington,2016,8,3.04
+Washington,2016,9,2.63
+Washington,2016,10,3.53
+Washington,2016,11,2.53
+Washington,2016,12,2.39
+Washington,2015,1,3.33
+Washington,2015,2,3.96
+Washington,2015,3,3.53
+Washington,2015,4,3.45
+Washington,2015,5,4.59
+Washington,2015,6,4.03
+Washington,2015,7,3.61
+Washington,2015,8,3.65
+Washington,2015,9,3.4
+Washington,2015,10,3.43
+Washington,2015,11,3.12
+Washington,2015,12,2.99
+Washington,2014,1,3.56
+Washington,2014,2,3.53
+Washington,2014,3,3.78
+Washington,2014,4,4.61
+Washington,2014,5,4.39
+Washington,2014,6,4.11
+Washington,2014,7,3.88
+Washington,2014,8,3.55
+Washington,2014,9,3.3
+Washington,2014,10,3.21
+Washington,2014,11,3.18
+Washington,2014,12,3.34
+Washington,2013,1,5.6
+Washington,2013,2,5.54
+Washington,2013,3,5.41
+Washington,2013,4,5.24
+Washington,2013,5,5.18
+Washington,2013,6,5.26
+Washington,2013,7,5.02
+Washington,2013,8,4.52
+Washington,2013,9,4.41
+Washington,2013,10,3.58
+Washington,2013,11,3.61
+Washington,2013,12,3.59
+Washington,2012,1,4.54
+Washington,2012,2,4.23
+Washington,2012,3,4.45
+Washington,2012,4,4.54
+Washington,2012,5,4.71
+Washington,2012,6,4.89
+Washington,2012,7,5.16
+Washington,2012,8,5.71
+Washington,2012,9,5.49
+Washington,2012,10,5.4
+Washington,2012,11,5.65
+Washington,2012,12,5.62
+Washington,2011,1,3.87
+Washington,2011,2,4.43
+Washington,2011,3,4.51
+Washington,2011,4,5.4
+Washington,2011,5,4.75
+Washington,2011,6,4.81
+Washington,2011,7,4.96
+Washington,2011,8,5.05
+Washington,2011,9,5.26
+Washington,2011,10,4.46
+Washington,2011,11,4.59
+Washington,2011,12,4.26
+Washington,2010,1,2.84
+Washington,2010,2,2.92
+Washington,2010,3,2.83
+Washington,2010,4,2.69
+Washington,2010,5,2.75
+Washington,2010,6,3.3
+Washington,2010,7,3.44
+Washington,2010,8,3.03
+Washington,2010,9,3.26
+Washington,2010,10,3.76
+Washington,2010,11,3.78
+Washington,2010,12,3.77
+Washington,2009,1,2.44
+Washington,2009,2,2.43
+Washington,2009,3,2.73
+Washington,2009,4,2.67
+Washington,2009,5,2.75
+Washington,2009,6,2.92
+Washington,2009,7,3.1
+Washington,2009,8,2.45
+Washington,2009,9,2.74
+Washington,2009,10,3.15
+Washington,2009,11,2.73
+Washington,2009,12,2.73
+Washington,2008,1,6.06
+Washington,2008,2,5.32
+Washington,2008,3,5.56
+Washington,2008,4,5.43
+Washington,2008,5,4.87
+Washington,2008,6,4.75
+Washington,2008,7,4.84
+Washington,2008,8,4.94
+Washington,2008,9,4.75
+Washington,2008,10,3.84
+Washington,2008,11,3.27
+Washington,2008,12,2.83
+Washington,2007,1,3.6
+Washington,2007,2,3.42
+Washington,2007,3,3.63
+Washington,2007,4,3.91
+Washington,2007,5,3.75
+Washington,2007,6,3.7
+Washington,2007,7,3.84
+Washington,2007,8,4.11
+Washington,2007,9,5.29
+Washington,2007,10,6.15
+Washington,2007,11,5.74
+Washington,2007,12,5.4
+Washington,2006,1,1.89
+Washington,2006,2,1.97
+Washington,2006,3,2.19
+Washington,2006,4,2.21
+Washington,2006,5,2.54
+Washington,2006,6,2.42
+Washington,2006,7,2.34
+Washington,2006,8,2.28
+Washington,2006,9,2.55
+Washington,2006,10,3.2
+Washington,2006,11,3.35
+Washington,2006,12,3.53
+Washington,2005,1,2.12
+Washington,2005,2,2.07
+Washington,2005,3,2.11
+Washington,2005,4,2.18
+Washington,2005,5,2.21
+Washington,2005,6,2.33
+Washington,2005,7,2.3
+Washington,2005,8,2.15
+Washington,2005,9,2.16
+Washington,2005,10,2.31
+Washington,2005,11,2.13
+Washington,2005,12,1.94
+Washington,2004,1,2.53
+Washington,2004,2,2.65
+Washington,2004,3,2.48
+Washington,2004,4,2.54
+Washington,2004,5,2.73
+Washington,2004,6,2.59
+Washington,2004,7,2.38
+Washington,2004,8,1.98
+Washington,2004,9,1.72
+Washington,2004,10,2.16
+Washington,2004,11,2.19
+Washington,2004,12,1.94
+Washington,2003,1,2.63
+Washington,2003,2,2.76
+Washington,2003,3,2.63
+Washington,2003,4,2.69
+Washington,2003,5,2.81
+Washington,2003,6,2.68
+Washington,2003,7,2.74
+Washington,2003,8,2.73
+Washington,2003,9,2.64
+Washington,2003,10,2.61
+Washington,2003,11,2.66
+Washington,2003,12,2.56
+Washington,2002,1,2
+Washington,2002,2,2.05
+Washington,2002,3,1.94
+Washington,2002,4,2.07
+Washington,2002,5,1.82
+Washington,2002,6,1.83
+Washington,2002,7,2.37
+Washington,2002,8,2.29
+Washington,2002,9,2.66
+Washington,2002,10,2.6
+Washington,2002,11,2.7
+Washington,2002,12,2.62
+Washington,2001,1,2.11
+Washington,2001,2,2.23
+Washington,2001,3,2.03
+Washington,2001,4,1.91
+Washington,2001,5,2.01
+Washington,2001,6,2.04
+Washington,2001,7,2.01
+Washington,2001,8,2.1
+Washington,2001,9,1.95
+Washington,2001,10,1.92
+Washington,2001,11,1.96
+Washington,2001,12,1.89
+Washington,2000,1,1.78
+Washington,2000,2,1.81
+Washington,2000,3,1.91
+Washington,2000,4,1.9
+Washington,2000,5,1.95
+Washington,2000,6,1.64
+Washington,2000,7,1.88
+Washington,2000,8,1.73
+Washington,2000,9,1.75
+Washington,2000,10,1.89
+Washington,2000,11,2.16
+Washington,2000,12,2.14
+Wyoming,2022,2,5
+Wyoming,2022,3,5.04
+Wyoming,2021,11,4.88
+Wyoming,2020,8,4.89
+Wyoming,2019,8,4.94
+Wyoming,2019,10,4.92
+Wyoming,2018,8,4.7
+Wyoming,2017,8,4.68
+Wyoming,2016,8,5.47
+Wyoming,2016,11,5.65
+Wyoming,2015,8,6.03
+Wyoming,2015,9,5.58
+Wyoming,2015,11,6.22
+Wyoming,2014,9,5.87
+Wyoming,2008,5,4.39
+Wyoming,2007,1,3.28
+Wyoming,2007,2,3.2
+Wyoming,2007,3,3.26
+Wyoming,2007,6,2.88
+Wyoming,2006,2,3.46
+Wyoming,2006,3,3.2
+Wyoming,2006,4,1.68
+Wyoming,2006,5,3.11
+Wyoming,2006,6,1.68
+Wyoming,2006,9,3.1
+Wyoming,2006,11,3.16
+Wyoming,2006,12,3.15
+Wyoming,2005,1,2.79
+Wyoming,2005,4,1.68
+Wyoming,2005,5,1.63
+Wyoming,2005,6,1.75
+Wyoming,2005,8,3.3
+Wyoming,2005,10,2.87
+Wyoming,2005,11,3.06
+Wyoming,2004,1,3.21
+Wyoming,2004,2,2.11
+Wyoming,2004,3,3.7
+Wyoming,2004,4,2.11
+Wyoming,2004,5,2.16
+Wyoming,2004,6,1.92
+Wyoming,2004,7,1.92
+Wyoming,2004,8,3.44
+Wyoming,2004,9,3.44
+Wyoming,2004,10,2.96
+Wyoming,2004,11,3.42
+Wyoming,2003,1,2.41
+Wyoming,2003,2,3.06
+Wyoming,2003,3,2.16
+Wyoming,2003,4,2.61
+Wyoming,2003,5,2.16
+Wyoming,2003,6,2.11
+Wyoming,2003,7,3.47
+Wyoming,2003,8,3.46
+Wyoming,2003,9,3.49
+Wyoming,2003,10,3.28
+Wyoming,2003,11,3.53
+Wyoming,2003,12,3.39
+Wyoming,2002,1,2.52
+Wyoming,2002,5,1.92
+Wyoming,2002,6,1.92
+Wyoming,2002,8,3.25
+Wyoming,2002,9,3.25
+Wyoming,2002,10,3.26
+Wyoming,2002,12,3.23
+Wyoming,2001,1,3.07
+Wyoming,2001,2,2.72
+Wyoming,2001,3,2.95
+Wyoming,2001,4,1.86
+Wyoming,2001,5,1.8
+Wyoming,2001,6,1.8
+Wyoming,2001,7,3.14
+Wyoming,2001,8,3.44
+Wyoming,2001,9,3.15
+Wyoming,2001,10,2.7
+Wyoming,2001,11,3.08
+Wyoming,2001,12,3.2
+Wyoming,2000,1,2.42
+Wyoming,2000,2,1.66
+Wyoming,2000,3,2.13
+Wyoming,2000,4,2.39
+Wyoming,2000,5,1.78
+Wyoming,2000,6,1.65
+Wyoming,2000,7,3.47
+Wyoming,2000,8,3.09
+Wyoming,2000,9,3.01
+Wyoming,2000,10,2.9
+Wyoming,2000,11,2.66
+Wyoming,2000,12,2.73

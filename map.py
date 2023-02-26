@@ -21,18 +21,18 @@ def plot_charts(df, x_axis, y_axis):
     # Plot the line chart
     ax2.plot(df[x_axis], df[y_axis])
     ax2.set_xlabel('Year')
-    ax2.set_ylabel('Dollar per bushal')
+    ax2.set_ylabel('Dollars per bushel')
     
     st.pyplot(fig)
 
 
 
-def display_map(df):
+def display_map(df_yield, df_price):
        
     map = folium.Map(location = [38, -96.5], zoom_start = 4, scrollWheelZoom = False, tiles = 'CartoDB positron')
 
     states_geojson = 'https://raw.githubusercontent.com/python-visualization/folium/master/examples/data'
-    df_indexed = df.set_index('state')
+    df_indexed = df_yield.set_index('state')
     
     type = str(st.sidebar.selectbox('Select a crop to display on US heatmap', options=df_indexed.columns[1:]))
     color = {'barley':'Reds', 'corn':'YlOrBr', 'oats':'BuGn', 'soybeans':'YlGn'}
@@ -42,9 +42,8 @@ def display_map(df):
         geo_data = f'{states_geojson}/us-states.json',
         name = "{} Layer".format(type), 
         #geo_data = 'us-state-boundaries.geojson',
-        data = df,
+        data = df_yield,
         columns = ['state', type],
-        #columns = 'state, barley, corn, oats, soybeans',
         key_on = 'feature.properties.name',
         fill_color = color[type],
         nan_fill_color = 'white',
@@ -71,21 +70,29 @@ def display_map(df):
         folium.features.GeoJsonTooltip(['name', 'barley', 'corn', 'oats', 'soybeans'], labels = False)
     )
 
-
     st_map = st_folium(map, width = 700, height = 450)
 
     if(st_map['last_active_drawing']):
         last_clicked = str(st_map['last_active_drawing']['properties']['name'])
-        index = list(df['state']).index(last_clicked)
-        vals = list(df.iloc[index])
-        temp_dict = {'state':vals[0], 'type':['Barley', 'Corn', 'Oats', 'Soybeans'], 'val':[vals[2], vals[3], vals[4], vals[5]]}
-        temp_df = pd.DataFrame(temp_dict)
+        price_index = list(df_price['state']).index(last_clicked) if last_clicked in list(df_price['state']) else 'N/A'
+        end_price_index = price_index
+        if price_index != 'N/A':
+            while df_price['state'][end_price_index] == last_clicked:
+                end_price_index += 1
+            print(price_index, end_price_index)
+            price_vals = list(df_price.iloc[price_index:end_price_index])
+            print(price_vals)
+        #print(list(df_price.index))
+        yield_index = list(df_yield['state']).index(last_clicked)
+        yield_vals = list(df_yield.iloc[yield_index])
+        temp_yield_dict = {'state':yield_vals[0], 'type':['Barley', 'Corn', 'Oats', 'Soybeans'], 'val':[yield_vals[2], yield_vals[3], yield_vals[4], yield_vals[5]]}
+        temp_yield_df = pd.DataFrame(temp_yield_dict)
         
-        x_axis_bar = temp_df.columns[1]
-        y_axis_bar = temp_df.columns[2]
+        x_axis_bar = temp_yield_df.columns[1]
+        y_axis_bar = temp_yield_df.columns[2]
     
         # Plot the bar chart using the selected columns
-        plot_charts(temp_df, x_axis_bar, y_axis_bar)
+        plot_charts(temp_yield_df, x_axis_bar, y_axis_bar)
         
 
 
@@ -95,10 +102,11 @@ def main():
     st.caption(APP_SUBTITLE)
     
     #Load data
-    df = pd.read_csv('yield/AllYield.csv')
+    df_yield = pd.read_csv('data/AllYield.csv')
+    df_price = pd.read_csv('data/pr/BARLEY.csv')
 
     #Display filters and map
-    display_map(df)
+    display_map(df_yield, df_price)
     
 
 if __name__ == "__main__":
