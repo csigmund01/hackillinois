@@ -4,9 +4,10 @@ import folium
 import matplotlib.pyplot as plt
 from streamlit_folium import st_folium
 import branca.colormap as cmp
+import datetime as dt
 
 
-APP_TITLE  = 'Farmland of the United States'
+APP_TITLE  = 'Farmland Crop Yield and Price per Bushel in the United States'
 APP_SUBTITLE = 'Source: National Agricultural Statistics Service'
 
 def plot_charts(df, x_axis, y_axis):
@@ -24,6 +25,8 @@ def plot_charts(df, x_axis, y_axis):
     
     st.pyplot(fig)
 
+
+
 def display_map(df):
        
     map = folium.Map(location = [38, -96.5], zoom_start = 4, scrollWheelZoom = False, tiles = 'CartoDB positron')
@@ -31,16 +34,23 @@ def display_map(df):
     states_geojson = 'https://raw.githubusercontent.com/python-visualization/folium/master/examples/data'
     df_indexed = df.set_index('state')
     
+    type = str(st.sidebar.selectbox('Select a crop to display on US heatmap', options=df_indexed.columns[1:]))
+    color = {'barley':'Reds', 'corn':'YlOrBr', 'oats':'BuGn', 'soybeans':'YlGn'}
+
+
     choropleth = folium.Choropleth(
         geo_data = f'{states_geojson}/us-states.json',
-        name = "choropleth", 
+        name = "{} Layer".format(type), 
         #geo_data = 'us-state-boundaries.geojson',
         data = df,
-        columns = ['state', 'corn'],
+        columns = ['state', type],
         #columns = 'state, barley, corn, oats, soybeans',
         key_on = 'feature.properties.name',
-        fill_color = 'YlGnBu',
-        legend_name = "Bushels per Acre of Corn",
+        fill_color = color[type],
+        nan_fill_color = 'white',
+        nan_fill_opacity = .6,
+        legend_name = "Bushels per Acre of {}".format(type),
+        position = 'bottomright',
         fill_opacity = .8,
         line_opacity = 0.8,
         highlight = True,
@@ -61,9 +71,9 @@ def display_map(df):
         folium.features.GeoJsonTooltip(['name', 'barley', 'corn', 'oats', 'soybeans'], labels = False)
     )
 
-    folium.LayerControl().add_to(map)
 
     st_map = st_folium(map, width = 700, height = 450)
+
     if(st_map['last_active_drawing']):
         last_clicked = str(st_map['last_active_drawing']['properties']['name'])
         index = list(df['state']).index(last_clicked)
