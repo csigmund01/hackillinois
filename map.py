@@ -8,11 +8,20 @@ import branca.colormap as cmp
 
 APP_TITLE  = 'Farmland of the United States'
 APP_SUBTITLE = 'Source: National Agricultural Statistics Service'
-def plot_bar_chart(df, x_axis, y_axis):
-    fig, ax = plt.subplots()
-    ax.bar(df[x_axis], df[y_axis])
-    ax.set_xlabel(x_axis)
-    ax.set_ylabel(y_axis)
+
+def plot_charts(df, x_axis, y_axis):
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10,5))
+    
+    # Plot the bar chart
+    ax1.bar(df[x_axis], df[y_axis])
+    ax1.set_xlabel('Type of crop')
+    ax1.set_ylabel('Bushels per Acre (BPA)')
+    
+    # Plot the line chart
+    ax2.plot(df[x_axis], df[y_axis])
+    ax2.set_xlabel('Year')
+    ax2.set_ylabel('Dollar per bushal')
+    
     st.pyplot(fig)
 
 def display_map(df):
@@ -39,7 +48,7 @@ def display_map(df):
         )
     
     choropleth.geojson.add_to(map)
-    #folium.LayerControl().add_to(map)
+    
 
     for feature in choropleth.geojson.data['features']:
         state_name = feature['properties']['name']
@@ -49,9 +58,10 @@ def display_map(df):
         feature['properties']['soybeans'] = 'Soybean yield: ' + '{:,} BPA'.format(df_indexed.loc[state_name, 'soybeans']) if state_name in list(df_indexed.index) else 'Soybean yield: N/A'
 
     choropleth.geojson.add_child(
-        #folium.features.GeoJsonTooltip(['name', 'barley'], labels = False)
         folium.features.GeoJsonTooltip(['name', 'barley', 'corn', 'oats', 'soybeans'], labels = False)
     )
+
+    folium.LayerControl().add_to(map)
 
     st_map = st_folium(map, width = 700, height = 450)
     if(st_map['last_active_drawing']):
@@ -61,13 +71,11 @@ def display_map(df):
         temp_dict = {'state':vals[0], 'type':['Barley', 'Corn', 'Oats', 'Soybeans'], 'val':[vals[2], vals[3], vals[4], vals[5]]}
         temp_df = pd.DataFrame(temp_dict)
         
-        st.sidebar.title('Sidebar')
-        x_axis = st.sidebar.selectbox('Select x-axis column', options=temp_df.columns)
-        y_axis = st.sidebar.selectbox('Select y-axis column', options=temp_df.columns)
-        st.sidebar.write(temp_df.columns)
+        x_axis_bar = temp_df.columns[1]
+        y_axis_bar = temp_df.columns[2]
     
         # Plot the bar chart using the selected columns
-        plot_bar_chart(temp_df, x_axis, y_axis)
+        plot_charts(temp_df, x_axis_bar, y_axis_bar)
         
 
 
@@ -77,21 +85,11 @@ def main():
     st.caption(APP_SUBTITLE)
     
     #Load data
-    #continental = pd.read_csv('Continental_fraud.csv')
     df = pd.read_csv('yield/AllYield.csv')
 
-    #st.write(df_barley.shape)
-    #st.write(df_barley.head())
-    #st.write(df_barley.columns)
     #Display filters and map
     display_map(df)
     
-    
-    
-    #Display metrics
-
-
-
 
 if __name__ == "__main__":
     main()

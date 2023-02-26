@@ -1,69 +1,50 @@
-import streamlit as st
 import folium
 import pandas as pd
-import numpy as np
-import io
-import base64
-import matplotlib.pyplot as plt
-from streamlit_folium import folium_static
 
-def main():
-    # Set up Streamlit page layout
-    st.set_page_config(page_title="Folium Map with Plot Popup", layout="wide")
+# Load the data
+data = pd.read_csv('data.csv')
 
-    # Create some example data
-    x = np.linspace(0, 10, 100)
-    y = np.sin(x)
+# Create the base map
+m = folium.Map(location=[39.8283, -98.5795], zoom_start=4)
 
-    # Create a Pandas dataframe with the data
-    df = pd.DataFrame({'x': x, 'y': y})
+# Create the first choropleth layer
+layer1 = folium.Choropleth(
+    geo_data='us-states.json',
+    name='Layer 1',
+    data=data,
+    columns=['state', 'value1'],
+    key_on='feature.id',
+    fill_color='YlGn',
+    fill_opacity=0.7,
+    line_opacity=0.2,
+    legend_name='Value 1',
+    highlight=True
+).add_to(m)
 
-    # Create a plot of the data
-    fig, ax = plt.subplots()
-    ax.plot(x, y)
-    ax.set_xlabel('x')
-    ax.set_ylabel('y')
+# Create the second choropleth layer
+layer2 = folium.Choropleth(
+    geo_data='us-states.json',
+    name='Layer 2',
+    data=data,
+    columns=['state', 'value2'],
+    key_on='feature.id',
+    fill_color='YlOrRd',
+    fill_opacity=0.7,
+    line_opacity=0.2,
+    legend_name='Value 2',
+    highlight=True
+).add_to(m)
 
-    # Convert the plot to a PNG image and encode it as base64
-    png_bytes = io.BytesIO()
-    fig.savefig(png_bytes, format='png')
-    png_bytes.seek(0)
-    png_base64 = base64.b64encode(png_bytes.read()).decode('utf-8')
+# Define a function to toggle the visibility of the layers
+def toggle_layers(name):
+    for layer in m._children:
+        if isinstance(layer, folium.map.Layer) and layer.name != name:
+            layer.add_to(m)
+        elif isinstance(layer, folium.map.Layer) and layer.name == name:
+            layer.remove_from(m)
 
-    # Create a Folium map centered on the United States
-    m = folium.Map(location=[39.8283, -98.5795], zoom_start=4)
+# Add the layer control to the map
+folium.LayerControl(on_click=toggle_layers).add_to(m)
 
-    # Define the geojson data for the US states
-    states_geojson = 'https://raw.githubusercontent.com/python-visualization/folium/master/examples/data'
-
-    # Define a function to display the plot in the popup
-    def plot_popup(df):
-        # Create a Matplotlib figure and plot the data
-        fig, ax = plt.subplots()
-        ax.plot(df['x'], df['y'])
-        ax.set_xlabel('x')
-        ax.set_ylabel('y')
-
-        # Convert the plot to a PNG image and encode it as base64
-        png_bytes = io.BytesIO()
-        fig.savefig(png_bytes, format='png')
-        png_bytes.seek(0)
-        png_base64 = base64.b64encode(png_bytes.read()).decode('utf-8')
-
-        # Create a Folium popup with the PNG image
-        popup = folium.Popup(html=f'<img src="data:image/png;base64,{png_base64}" />', max_width=800)
-        return popup
-
-    # Add the geojson layer to the map and specify the popup function
-    folium.GeoJson(
-        f'{states_geojson}/us-states.json',
-        name='geojson',
-        tooltip=folium.features.GeoJsonTooltip(fields=['name'], aliases=['State:']),
-        popup=plot_popup(df)
-    ).add_to(m)
-
-    # Display the Folium map in the Streamlit app
-    folium_static(m)
-
-if __name__ == "__main__":
-    main()
+# Display the map
+m
