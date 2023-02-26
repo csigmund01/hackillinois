@@ -7,21 +7,22 @@ import branca.colormap as cmp
 import datetime as dt
 
 
-APP_TITLE  = 'Farmland Crop Yield and Price per Bushel in the United States'
+APP_TITLE  = 'Harv-estimate'
 APP_SUBTITLE = 'Source: National Agricultural Statistics Service'
 
-def plot_charts(df, x_axis, y_axis):
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10,5))
+def plot_charts(df, x_axis, y_axis, state):
+    fig, (ax1) = plt.subplots()
     
     # Plot the bar chart
     ax1.bar(df[x_axis], df[y_axis])
+    ax1.set_title('{} crop yields'.format(state))
     ax1.set_xlabel('Type of crop')
     ax1.set_ylabel('Bushels per Acre (BPA)')
     
     # Plot the line chart
-    ax2.plot(df[x_axis], df[y_axis])
-    ax2.set_xlabel('Year')
-    ax2.set_ylabel('Dollars per bushel')
+    #ax2.plot(df[x_axis], df[y_axis])
+    #ax2.set_xlabel('Year')
+    #ax2.set_ylabel('Dollars per bushel')
     
     st.pyplot(fig)
 
@@ -74,14 +75,14 @@ def display_map(df_yield, df_price):
 
     if(st_map['last_active_drawing']):
         last_clicked = str(st_map['last_active_drawing']['properties']['name'])
-        price_index = list(df_price['state']).index(last_clicked) if last_clicked in list(df_price['state']) else 'N/A'
-        end_price_index = price_index
-        if price_index != 'N/A':
-            while df_price['state'][end_price_index] == last_clicked:
-                end_price_index += 1
-            print(price_index, end_price_index)
-            price_vals = list(df_price.iloc[price_index:end_price_index])
-            print(price_vals)
+        #price_index = list(df_price['state']).index(last_clicked) if last_clicked in list(df_price['state']) else 'N/A'
+        #end_price_index = price_index
+        #if price_index != 'N/A':
+        #    while df_price['state'][end_price_index] == last_clicked:
+        #        end_price_index += 1
+        #    print(price_index, end_price_index)
+        #    price_vals = list(df_price.iloc[price_index:end_price_index])
+        #    print(price_vals)
         #print(list(df_price.index))
         yield_index = list(df_yield['state']).index(last_clicked)
         yield_vals = list(df_yield.iloc[yield_index])
@@ -92,7 +93,7 @@ def display_map(df_yield, df_price):
         y_axis_bar = temp_yield_df.columns[2]
     
         # Plot the bar chart using the selected columns
-        plot_charts(temp_yield_df, x_axis_bar, y_axis_bar)
+        plot_charts(temp_yield_df, x_axis_bar, y_axis_bar, last_clicked)
         
 
 
